@@ -67,3 +67,13 @@
 .article .section-block.defer-render{contain-intrinsic-size:auto 500px}
 @media(max-width:1090px){.menu-btn{display:flex}.nav{display:none;position:absolute;left:0;right:0;top:79px;background:#fff;box-shadow:0 18px 25px #0c291c18;padding:15px 22px 22px;flex-direction:column;align-items:stretch;gap:0;border-top:1px solid var(--line);margin:0}.nav.open{display:flex}.nav a:not(.btn){font-size:15px;padding:12px 5px;border-bottom:1px solid #f0f3ef}.nav .btn{margin-top:15px}}
 @media(max-width:760px){.nav{top:66px;gap:0}.nav a:not(.btn){font-size:15px}.page-hero{padding:36px 0 38px}.page-hero h1{font-size:clamp(30px,8vw,36px)}.article{padding-top:29px}.section-block{padding:26px 0 33px}.help-grid,.anchor-card-grid,.mini-service-grid{grid-template-columns:1fr}.list-rows li{grid-template-columns:1fr;gap:5px;padding:15px 0}.cta-strip{display:block;padding:20px}.cta-strip .btn{margin-top:14px}.article p{font-size:14px}.landing-visual{border-radius:9px}.article .section-block.defer-render{contain-intrinsic-size:auto 650px}}
+
+/* 스크롤 시 섹션 진입: 크기와 레이아웃은 유지하고 불투명도·위치만 전환합니다. */
+.scroll-reveal{transition:opacity .82s cubic-bezier(.2,.7,.2,1),transform .82s cubic-bezier(.2,.7,.2,1),filter .82s ease;will-change:auto}
+.scroll-reveal.reveal-pending{opacity:0;transform:translate3d(0,38px,0);filter:blur(3px)}
+.scroll-reveal.reveal-visible{opacity:1;transform:translate3d(0,0,0);filter:none}
+.landing-visual--full{max-width:780px;margin:20px auto 10px;box-shadow:0 18px 36px rgba(23,63,43,.14);background:white}
+.landing-visual--full img{width:100%;height:auto;object-fit:contain}
+.landing-funding-note{max-width:780px;margin:4px auto 42px;color:#667569;font-size:12px;line-height:1.85}
+@media(max-width:760px){.landing-visual--full{margin:6px auto 10px;border-radius:10px}.landing-funding-note{font-size:11px;margin-bottom:24px}.scroll-reveal.reveal-pending{transform:translate3d(0,26px,0)}}
+@media(prefers-reduced-motion:reduce){.scroll-reveal,.scroll-reveal.reveal-pending,.scroll-reveal.reveal-visible{opacity:1!important;transform:none!important;filter:none!important;transition:none!important}}

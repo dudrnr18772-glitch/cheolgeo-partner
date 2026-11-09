@@ -1,0 +1,42 @@
+{
+  "/": {
+    "name": "메인",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  },
+  "/services/closing-demolition/": {
+    "name": "폐업철거",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  },
+  "/services/restoration/": {
+    "name": "상가 원상복구",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  },
+  "/costs/": {
+    "name": "철거비용·견적",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  },
+  "/industries/": {
+    "name": "업종별 철거",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  },
+  "/regions/": {
+    "name": "지역별 철거",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  },
+  "/cases/": {
+    "name": "시공사례",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  },
+  "/process/": {
+    "name": "진행 절차",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09"
+  }
+}
